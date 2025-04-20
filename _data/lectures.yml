@@ -17,7 +17,7 @@
     - Overview of multimodal representation, alignment, reasoning, transfer, generation, and quantification. <br />
     - Identifying recent solutions for practitioners.
   readings:
-    - <a href="https://www.sciencedirect.com/science/article/pii/S0167865513002584">Multimodal interaction&#58;A review </a> <br />
+    - <a href="https://www.sciencedirect.com/science/article/pii/S0167865513002584">Multimodal interaction&#58; A review </a> <br />
     - <a href="https://aclanthology.org/2020.emnlp-main.62/">Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!</a> <br />
     - <a href="https://arxiv.org/abs/2405.07987">The Platonic Representation Hypothesis  </a> <br />
     
