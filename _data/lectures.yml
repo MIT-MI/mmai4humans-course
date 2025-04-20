@@ -1,6 +1,6 @@
 - date: 1
   title: >
-    <strong>Introduction</strong> <a href="https://drive.google.com/file/d/1xtXj95tJeBGxD4quXCDYoKqyQTg-BoUf/view?usp=sharing">[slides]</a> <a href="https://screencast-o-matic.com/watch/c31trKV06YZ">[video]</a>
+    <strong>Introduction</strong>
   slides:
   topics:
     - What is Multimodal? Definitions, dimensions of heterogeneity and cross-modal interactions.<br/>
@@ -8,112 +8,93 @@
     - Core technical challenges&#58; representation, alignment, transference, reasoning, generation, and quantification.<br/>
   readings:
     - <a href="https://arxiv.org/abs/2209.03430">Foundations and Trends in Multimodal Machine Learning&#58; Principles, Challenges, and Open Questions</a> <br/>
-    - <a href="https://arxiv.org/abs/1705.09406">Multimodal Machine Learning&#58; A Survey and Taxonomy</a> <br/>
-    - <a href="https://arxiv.org/abs/1206.5538">Representation Learning&#58; A Review and New Perspectives</a> <br/>
 
 - date: 2
   title: >
-    <strong>Representation</strong> <a href="https://drive.google.com/file/d/1JzByYECmzlloWKjcPsmRrLCj-QngGWLD/view?usp=sharing">[slides]</a> <a href="https://screencast-o-matic.com/watch/c31t3rV06Ze">[video]</a>
+    <strong>Multimodal challenges</strong>
   topics:
-    - Representation fusion&#58; additive, multiplicative, non-linear, complex fusion strategies.<br/>
-    - Representation coordination&#58; contrastive learning, vector-space models, canonical correlation analysis.<br/>
-    - Representation fission&#58; factorization, component analysis, clustering.<br/>
+    - Why is multimodal hard? Introduction to core challenges. <br />
+    - Overview of multimodal representation, alignment, reasoning, transfer, generation, and quantification. <br />
+    - Identifying recent solutions for practitioners.
   readings:
-    - <a href="https://www.journals.uchicago.edu/doi/epdf/10.1086/431246">Issues in the Classification of Multimodal Communication Signals</a> <br/>
-    - <a href="https://arxiv.org/abs/1004.2515">Nonnegative Decomposition of Multivariate Information</a> <br/>
-    - <a href="https://www.sciencedirect.com/science/article/pii/S0378216608003056">Language and Image Interaction in Cartoons&#58; Towards a Multimodal Theory of Humor</a> <br/>
-    - <a href="https://piazza.com/class_profile/get_resource/lcv0w9mqjzy1kx/lds3ewt4t4g6w4">Multimodality and Reading&#58; The Construction of Meaning Through Image-text Interaction</a> <br/>
-    - <a href="https://dl.acm.org/doi/abs/10.1145/1228175.1228254">Examining the Redundancy of Multimodal Input</a> <br/>
-    - <a href="https://arxiv.org/abs/2302.12247">Quantifying & Modeling Feature Interactions&#58; An Information Decomposition Framework</a> <br/>
-    - <a href="https://openreview.net/pdf?id=rylnK6VtDH">Multiplicative Interactions and Where to Find Them</a> <br/>  
-    - <a href="https://arxiv.org/abs/1707.07250">Tensor Fusion Network for Multimodal Sentiment Analysis</a> <br/>
-    - <a href="https://aclanthology.org/2020.emnlp-main.62/">Does My Multimodal Model Learn Cross-modal Interactions? It’s Harder to Tell Than You Might Think!</a> <br/>
-    - <a href="https://arxiv.org/abs/1602.01024">On Deep Multi-View Representation Learning&#58; Objectives and Optimization</a> <br/>
-    - <a href="https://arxiv.org/abs/2103.00020">Learning Transferable Visual Models From Natural Language Supervision</a> <br/>
-    - <a href="https://arxiv.org/abs/1806.06176">Learning Factorized Multimodal Representations</a> <br/>
+    - <a href="https://www.sciencedirect.com/science/article/pii/S0167865513002584">Multimodal interaction&#58;A review </a> <br />
+    - <a href="https://aclanthology.org/2020.emnlp-main.62/">Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!</a> <br />
+    - <a href="https://arxiv.org/abs/2405.07987">The Platonic Representation Hypothesis  </a> <br />
     
 - date: 3
   title: >
-    <strong>Alignment</strong> <a href="https://drive.google.com/file/d/1Vku7SqKQiu2BTQ5O-DD9sYUmelno2yrd/view?usp=sharing">[slides]</a> <a href="https://screencast-o-matic.com/watch/c31u3gV0Iyh">[video]</a>
+    <strong>Recent advances in multimodal AI</strong>
   topics:
-    - Discrete alignment&#58; grounding, optimal transport, distribution matching.<br/>
-    - Continuous alignment&#58; time warping, CTC, temporal alignment, clustering.<br/>
-    - Aligned representations&#58; attention models, multimodal transformers.<br/>
+    - Multimodal transformers and foundation models <br />
+    - Multimodal generative models <br />
+    - Multimodal agents
   readings:
-    - <a href="https://arxiv.org/abs/2005.10243">What Makes for Good Views for Contrastive Learning?</a> <br/>
-    - <a href="https://link.springer.com/article/10.1007/s13735-019-00187-6">Characterization and Classification of Semantic Image-text Relations</a> <br/>
-    - <a href="https://www.emerald.com/insight/content/doi/10.1108/00220410310506303/full/pdf?title=a-taxonomy-of-relationships-between-images-and-text">A Taxonomy of Relationships Between Images and Text</a> <br/>
-    - <a href="https://home.ttic.edu/~klivescu/papers/andrew_icml2013.pdf">Deep Canonical Correlation Analysis</a> <br/>
-    - <a href="https://arxiv.org/abs/2006.14744">Graph Optimal Transport for Cross-domain Alignment</a> <br/>
-    - <a href="https://ibug.doc.ic.ac.uk/media/uploads/documents/deep_canonical_time_warping_(1).pdf">Deep Canonical Time Warping for Simultaneous Alignment and Representation Learning of Sequences</a> <br/>
-    - <a href="https://arxiv.org/abs/1412.2306">Deep Visual-semantic Alignments for Generating Image Descriptions</a> <br/>
-    - <a href="https://arxiv.org/abs/1908.02265">ViLBERT&#58; Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks</a> <br/>
-    - <a href="https://arxiv.org/abs/1906.00295">Multimodal Transformer for Unaligned Multimodal Language Sequences</a> <br/>
+    - <a href="https://arxiv.org/abs/2303.16199">LLaMA-Adapter&#58; Efficient Fine-tuning of Language Models with Zero-init Attention</a> <br />
+    - <a href="https://arxiv.org/abs/2301.03728">Scaling Laws for Generative Mixed-Modal Models </a> <br />
+    - <a href="https://arxiv.org/abs/2309.05519">NExT-GPT&#58; Any-to-Any Multimodal LLM</a> <br />
   
 - date: 4
   title: >
-    <strong>Reasoning</strong> <a href="https://drive.google.com/file/d/1A_brIgLDT1GRWJRiZXn9VrRgZLazKqKn/view?usp=sharing">[slides]</a> <a href="https://screencast-o-matic.com/watch/c31u2wV0l3l">[video]</a>
+    <strong>Multimodal AI for Human Sensing </strong>
   topics:
-    - Structure&#58; hierarchical, graphical, temporal, and interactive structure, structure discovery.<br/>
-    - Concepts&#58; dense and neuro-symbolic.<br/>
-    - Inference&#58; logical and causal inference.<br/>
-    - Knowledge&#58; external knowledge bases, commonsense reasoning.<br/>
+    - Sensor data synthesis&#58; Video to Doppler, Video to IMU, Video to Audio, MoCap to IMU, MoCap to UWB <br />
+    - Data augmentation <br />
+    - Temporal data modeling 
   readings:
-    - <a href="https://arxiv.org/abs/1906.01784">Learning to Compose and Reason with Language Tree Structures for Visual Grounding</a> <br/>
-    - <a href="https://arxiv.org/abs/1904.12584">The Neuro-Symbolic Concept Learner&#58; Interpreting Scenes, Words, and Sentences From Natural Supervision</a> <br/>
-    - <a href="https://arxiv.org/abs/1906.03926">A Survey of Reinforcement Learning Informed by Natural Language</a> <br/>
-    - <a href="https://arxiv.org/abs/1603.01417">Dynamic Memory Networks for Visual and Textual Question Answering</a> <br/>
-    - <a href="https://arxiv.org/abs/1611.05592">Multimodal Memory Modelling for Video Captioning</a> <br/>
-    - <a href="https://arxiv.org/abs/2002.08325">VQA-LOL&#58; Visual Question Answering Under the Lens of Logic</a> <br/>
-    - <a href="https://arxiv.org/abs/1912.07538">Towards Causal VQA&#58; Revealing and Reducing Spurious Correlations by Invariant and Covariant Semantic Editing</a> <br/>
-    - <a href="https://arxiv.org/abs/1507.05670">Building a Large-scale Multimodal Knowledge Base System for Answering Visual Queries</a> <br/>
+    - <a href="https://spice-lab.org/projects/Vid2Doppler/">Synthesizing Doppler Radar data for Privacy-Aware Activity Recognition</a> <br />
+    - <a href="https://spice-lab.org/projects/MobilePoser/">MobilePoser&#58; Real-Time Full-Body Pose Estimation and 3D Human Translation from IMUs in Mobile Consumer Devices</a> <br />    
 
 - date: 5
   title: >
-    <strong>Generation</strong> <a href="https://drive.google.com/file/d/13c4sS80N6rzb1rp_NynhSo4B0GiA2tkx/view?usp=sharing">[slides]</a> <a href="https://screencast-o-matic.com/watch/c31u2GV0lZa">[video]</a>
+    <strong>Ethics, interpretability and privacy</strong>
   topics:
-    - Summarization, translation, and creation.<br/>
-    - Model evaluation and ethical concerns.<br/>
+    - Privacy and fairness concerns <br />
+    - Handling errors and uncertainty <br />
+    - Bringing humans into the loop <br />
   readings:
-    - <a href="https://arxiv.org/abs/2102.10407">VisualGPT&#58; Data-efficient Adaptation of Pretrained Language Models for Image Captioning</a> <br/>
-    - <a href="https://openai.com/blog/dall-e/">DALL·E&#58; Creating Images from Text</a> and <a href="https://openai.com/dall-e-2/">DALL·E 2</a> <br/>
-    - <a href="https://dl.acm.org/doi/abs/10.1145/3442188.3445922">On the Dangers of Stochastic Parrots&#58; Can Language Models Be Too Big?</a> <br/>
-    - <a href="https://www.liebertpub.com/doi/full/10.1089/cyber.2021.29208.jth">The Social Impact of Deepfakes</a> <br/>
-    - <a href="https://www.theverge.com/21298762/face-depixelizer-ai-machine-learning-tool-pulse-stylegan-obama-bias">What a machine learning tool that turns Obama white can (and can’t) tell us about AI bias</a> <br/>
-    - <a href="https://thegradient.pub/pulse-lessons/">Lessons from the PULSE Model and Discussion</a> <br/>
-    - <a href="https://arxiv.org/abs/1906.07901">Multimodal Abstractive Summarization for How2 Videos</a> <br/>
-    - <a href="https://arxiv.org/abs/1710.00421">Video Generation From Text</a> <br/>
+    - <a href="https://spice-lab.org/projects/SAMoSA/">SAMoSA&#58; Sensing Activities with Motion and Subsampled Audio</a> <br />
 
 - date: 6
   title: >
-    <strong>Transference</strong> <a href="https://drive.google.com/file/d/1Wazw91eU3wjguHNTqzUX1zmFZYqjlIR4/view?usp=sharing">[slides]</a> <a href="https://screencast-o-matic.com/watch/c31uoOV0lx1">[video]</a>
+    <strong>Applications</strong>
   topics:
-    - Transfer via pre-trained models&#58; pre-trained models, prefix tuning, representation tuning, multitask models.<br/>
-    - Co-learning&#58; co-learning via representation and generation.<br/>
+    - Human activity recognition, pose estimation, gesture recognition <br />
+    - Infrastructure and environmental sensing <br />
+    - Wellness and fitness tracking, mobile health monitoring <br />
   readings:
-    - <a href="https://arxiv.org/abs/2010.06775">Vokenization&#58; Improving Language Understanding via Contextualized, Visually-Grounded Supervision</a> <br/>
-    - <a href="https://arxiv.org/abs/2109.10246">Does Vision-and-Language Pretraining Improve Lexical Grounding?</a> <br/>
-    - <a href="https://www.sciencedirect.com/science/article/pii/S1566253520303006">Foundations of Multimodal Co-learning</a> <br/>
-    - <a href="https://arxiv.org/abs/2107.13782">Multimodal Co-learning&#58; Challenges, Applications with Datasets, Recent Advances and Future Directions</a> <br/>
-    - <a href="https://arxiv.org/abs/1812.07809">Found in Translation&#58; Learning Robust Joint Representations by Cyclic Translations Between Modalities</a> <br/>
-    - <a href="https://arxiv.org/abs/1301.3666">Zero-Shot Learning Through Cross-Modal Transfer</a> <br/>
-    - <a href="https://arxiv.org/abs/1912.02315">12-in-1&#58; Multi-Task Vision and Language Representation Learning</a> <br/>
-    - <a href="https://dl.acm.org/doi/pdf/10.1145/354756.354805">Analyzing the Effectiveness and Applicability of Co-training</a> <br/>
-    - <a href="https://www.learningtheory.org/colt2008/papers/94-Sridharan.pdf">An Information Theoretic Framework for Multi-view Learning</a> <br/>
+    - <a href="https://chrisharrison.net/index.php/Research/DirectionOfVoice">Direction-of-Voice (DoV) Estimation for Intuitive Speech Interaction with Smart Devices Ecosystems</a> <br />
+    - <a href="https://www.edusense.io/">EduSense&#58; Practical Classroom Sensing at Scale</a> <br />
     
 - date: 7
   title: >
-    <strong>Quantification</strong> <a href="https://drive.google.com/file/d/1Df0uS61_aFAc1zaXP-cijsqzOng4kX7A/view?usp=sharing">[slides]</a> <a href="https://screencast-o-matic.com/watch/c31uDYV0lkN">[video]</a>
+    <strong>Hardware and Sensors for Multimodal AI </strong>
   topics:
-    - Dimensions of heterogenity&#58; modality importance, dataset biases, social biases, noise topologies and robustness.<br/>
-    - Cross-modal interactions&#58; interpreting cross-model connections and interactions.<br/>
-    - Learning&#58; learning and optimization challenges.<br/>
+    - Challenges and opportunities in hardware and sensors for multimodal AI <br />
+    - Importance of scalable, customizable hardware platforms <br />
+    - Key applications benefiting from advancements in multimodal sensing and feedback interfaces
   readings:
-    - <a href="https://arxiv.org/abs/2107.07502">MultiBench&#58; Multiscale Benchmarks for Multimodal Representation Learning</a> <br/>
-    - <a href="https://arxiv.org/abs/2203.01311">HighMMT&#58; Towards Modality and Task Generalization for High-Modality Representation Learning</a> <br/>
-    - <a href="https://arxiv.org/abs/2203.17247">VL-InterpreT&#58; An Interactive Visualization Tool for Interpreting Vision-Language Transformers</a> <br/>
-    - <a href="https://arxiv.org/abs/1810.12366">Do explanations make VQA models more predictable to a human?</a> <br/>
-    - <a href="https://arxiv.org/abs/1803.09797">Women also Snowboard&#58; Overcoming Bias in Captioning Models</a> <br/>
-    - <a href="https://aclanthology.org/2021.naacl-main.78.pdf">Measuring Social Biases in Grounded Vision and Language Embeddings</a> <br/>
-    - <a href="https://arxiv.org/abs/2110.01963">Multimodal datasets&#58; misogyny, pornography, and malignant stereotypes</a> <br/>
+    - <a href="https://stag.csail.mit.edu/">Learning the signatures of the human grasp using a scalable tactile glove</a> <br />
     
+- date: 8
+  title: >
+    <strong>Multimodal sensing and feedback interface </strong>
+  topics:
+    - Advanced fabrication techniques for multimodal sensing hardware <br />
+    - Addressing scalability, adaptability, and customization in hardware development <br />
+    - Innovations in state-of-the-art data acquisition systems for multimodal interfaces <br />
+    - Integration of diverse sensing modalities into compact, flexible form factors <br />
+  readings:
+    - <a href="https://adaptouch.csail.mit.edu/">Adaptive Tactile Interaction Transfer via Digitally Embroidered Smart Gloves</a> <br />
+    - <a href="https://www.nature.com/articles/s41586-019-1687-0">Skin-integrated wireless haptic interfaces for virtual and augmented reality</a> <br />
+
+- date: 9
+  title: >
+    <strong>Multisensory data fusion </strong>
+  topics:
+    - Approaches to synchronize and interpret multimodal data <br />
+    - Strategies for enhancing signal quality and accuracy <br />
+    - Future directions enabled by multisensory interfaces <br />
+  readings:
+    - <a href="https://action-sense.csail.mit.edu/">ActionSense&#58; A Multimodal Dataset and Recording Framework for Human Activities Using Wearable Sensors in a Kitchen Environment</a> <br />
+    - <a href="https://binghao-huang.github.io/3D-ViTac/">3D-ViTac Learning Fine-Grained Manipulation with Visuo-Tactile Sensing</a> <br />
+
