@@ -1,6 +1,6 @@
 - date: 1
   title: >
-    <strong>Introduction</strong>
+    <strong>Introduction</strong> <a href="https://docs.google.com/presentation/d/1jVIa5B5fOF7QGwwAuZqiN8wtY8jhikCs/edit?usp=sharing&ouid=112454988971729379076&rtpof=true&sd=true">[slides]</a>
   slides:
   topics:
     - What is Multimodal? Definitions, dimensions of heterogeneity and cross-modal interactions.<br/>
@@ -35,7 +35,7 @@
   
 - date: 4
   title: >
-    <strong>Multimodal AI for Human Sensing </strong>
+    <strong>Multimodal AI for Human Sensing </strong> <a href="https://www.dropbox.com/scl/fi/br9fd7ou52ngug28uqkwi/Main_Lecture.pdf?rlkey=y32d8paepdjg52votpbywfdxn&dl=0">[slides]</a>
   topics:
     - Sensor data synthesis&#58; Video to Doppler, Video to IMU, Video to Audio, MoCap to IMU, MoCap to UWB <br />
     - Data augmentation <br />
@@ -67,7 +67,7 @@
     
 - date: 7
   title: >
-    <strong>Hardware and Sensors for Multimodal AI </strong>
+    <strong>Hardware and Sensors for Multimodal AI </strong> <a href="https://drive.google.com/file/d/1q8kJEiBWl7wAPXYzTB9-HMQqXTb_wjr3/view?usp=drive_link">[slides]</a>
   topics:
     - Challenges and opportunities in hardware and sensors for multimodal AI <br />
     - Importance of scalable, customizable hardware platforms <br />
